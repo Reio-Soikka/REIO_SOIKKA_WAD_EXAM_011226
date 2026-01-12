@@ -56,26 +56,44 @@ h1 {
   font-size: 20px;
 }
 
-.StudentGrades {
-  display: block;
+.container {
+  display: flexbox;
   margin: 0 auto;
   padding: 10px 20px;
-  margin-bottom: 1em;
-  margin-left: 5rem ;
-  margin-right: 5rem;
+  margin-left: 20em;
+  margin-right: 20em ;
+  
   background: rgb(184, 184, 184);
   border-radius: 1px;
 
 
   color: rgb(32, 34, 50);
-  text-decoration: none;
   text-align: center;
   align-items: center;
+}
+  
+.StudentGrades {
+  flex: auto;
+  padding: 20px;
+  align-self: center;
+  margin: auto;
   
 }
 
 .StudentGrades th {
-  padding-left: 20px;
+  text-align: center;
+  margin: 50px;
+  padding: 5px;
+  background-color: rgb(130, 218, 188);
+  
+}
+
+.StudentGrades td {
+  text-align: center;
+  margin: 50px;
+  padding: 5px;
+  background-color: rgb(214, 252, 240);
+  
 }
 
 </style>
